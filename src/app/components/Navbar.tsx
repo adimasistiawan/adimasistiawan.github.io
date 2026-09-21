@@ -24,10 +24,7 @@ const Navbar = () => {
                 </a>
             </div>
             <div className="flex items-center gap-3">
-                <Link href="mailto:adimasistiawan02@gmail.com" className="flex items-center gap-2 px-6 py-3 rounded-full bg-white border border-[#030712] text-[#030712] text-lg">
-                    Let's Talk
-                    <FaArrowRight size={16} />
-                </Link>
+                
 
                 <button onClick={() => setIsOpen(!isOpen)} className="flex px-3 py-3 items-center justify-center rounded-full border border-[#030712] text-[#030712] text-lg">
                     {isOpen ? <BiX size={18} /> : <BiMenu size={18} />}

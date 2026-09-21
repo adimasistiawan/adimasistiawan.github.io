@@ -30,35 +30,37 @@ export default function AboutMe() {
               and QA within an Agile workflow. Known as a detail oriented, communicative problem solver with a strong drive for
               continuous learning, and a track record of driving complex features to completion both independently and as part of a
               team.</p>
-              <div className="flex gap-4 mt-4">
+              <div className="flex flex-col lg:flex-row gap-4 mt-4">
                   <button className='flex items-center gap-2 max-w-max px-6 py-3 rounded-full mr-4 bg-[#030712] hover:bg-[#6b7280] text-white text-2xl mb-2 lg:mb-0 transition-colors duration-300 ease-out'>
                     Let's Talk
                     <FaArrowRight size={16} />
                   </button>
-                  <a
-                      href="https://instagram.com/adimasistiawan"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="px-3 py-3 rounded-full border border-[#030712] text-[#6b7280]"
-                  >
-                      <FaInstagram className="w-8 h-8" />
-                  </a>
-                    <a
-                      href="https://www.threads.com/@adimasistiawan"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="px-3 py-3 rounded-full border border-[#030712] text-[#6b7280]"
-                  >
-                      <FaThreads className="w-8 h-8" />
-                  </a>
-                  <a
-                      href="https://www.linkedin.com/in/adimas-putra-istiawan-29587814b/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="px-3 py-3 rounded-full border border-[#030712] text-[#6b7280]"
-                  >
-                      <FiLinkedin className="w-8 h-8" />
-                  </a>
+                  <div className="flex flex-row gap-4">
+                      <a
+                          href="https://instagram.com/adimasistiawan"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-3 py-3 rounded-full border border-[#030712] text-[#6b7280]"
+                      >
+                          <FaInstagram className="w-8 h-8" />
+                      </a>
+                        <a
+                          href="https://www.threads.com/@adimasistiawan"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-3 py-3 rounded-full border border-[#030712] text-[#6b7280]"
+                      >
+                          <FaThreads className="w-8 h-8" />
+                      </a>
+                      <a
+                          href="https://www.linkedin.com/in/adimas-putra-istiawan-29587814b/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-3 py-3 rounded-full border border-[#030712] text-[#6b7280]"
+                      >
+                          <FiLinkedin className="w-8 h-8" />
+                      </a>
+                  </div>
               </div>
             </FadeIn>
           </div>
