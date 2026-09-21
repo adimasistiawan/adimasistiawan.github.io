@@ -19,15 +19,13 @@ export default function AboutMe() {
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
           <div>
             <FadeIn>
-              <span className='text-7xl sm:text-8xl lg:text-9xl text-[#030712] font-extrabold'>More Than Just <span className='text-[#b6bcc6]'>Writing Code</span></span>
+              <span className='text-6xl sm:text-7xl lg:text-8xl text-[#030712] font-extrabold'>More Than Just <span className='text-[#b6bcc6]'>Writing Code</span></span>
             </FadeIn>
           </div>
           <div>
             <FadeIn delay={0.4}>
               <Image className='size-96 rounded-3xl object-cover mb-8' src="/images/photo-profile.jpeg" alt="" width={300} height={300} />
-              <p className='text-[#374151] text-xl leading-relaxed mb-8'>Full-Stack Software Engineer with 5+ years of experience across the PHP/Laravel, Go, and React/Next.js ecosystem,
-              promoted from Software Engineer to Senior Software Engineer at Suitmedia in recognition of technical contribution
-              and consistent delivery. Comfortable owning the full development lifecycle from database design and REST API
+              <p className='text-[#374151] text-xl leading-relaxed mb-8'>Full-Stack Software Engineer with 5+ years of experience. Comfortable owning the full development lifecycle from database design and REST API
               architecture to third party integrations and application security hardening while collaborating closely with designers
               and QA within an Agile workflow. Known as a detail oriented, communicative problem solver with a strong drive for
               continuous learning, and a track record of driving complex features to completion both independently and as part of a

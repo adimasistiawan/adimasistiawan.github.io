@@ -5,9 +5,9 @@ const Experiences = () => {
   return (
     <section className='px-18 sm:px-32 py-18'>
         <div className='grid grid-cols-1 lg:grid-cols-12 gap-8'>
-            <div className='lg:col-span-4 pr-48'>
+            <div className='lg:col-span-4'>
                 <FadeIn>
-                    <h2 className='text-3xl lg:text-5xl text-[#030712] font-bold'>My Journey So Far</h2>
+                    <h2 className='text-3xl lg:text-5xl text-[#030712] font-bold'>My Journey <br/> So Far</h2>
                 </FadeIn>
             </div>
             <div className='lg:col-span-6'>

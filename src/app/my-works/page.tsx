@@ -14,7 +14,7 @@ export default function Home() {
       <Navbar/>
       <section className='px-18 sm:px-32 py-18'>
         <div className="text-center">
-            <h1 className='text-7xl sm:text-8xl lg:text-9xl text-[#030712] font-extrabold'>Some Of The Things <span className='text-[#b6bcc6]'>I've Built</span></h1>
+            <h1 className='text-6xl sm:text-7xl lg:text-8xl text-[#030712] font-extrabold'>Some Of The Things <span className='text-[#b6bcc6]'>I've Built</span></h1>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mt-18'>
             {projects.map((project, index) => (

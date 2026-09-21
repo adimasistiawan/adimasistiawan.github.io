@@ -21,14 +21,18 @@ const MyWorks = () => {
             {projects.map((project, index) => (
                 index < 6 &&
                 <FadeIn key={index} >
-                    <div className='flex flex-col justify-between transition-all duration-300 hover:-translate-y-1'>
-                        <div className='px-8 py-8 h-100 overflow-hidden bg-[#e5e7eb] rounded-3xl'>
-                            <img src={project.image} alt="" className='object-cover w-full h-full rounded-3xl' />
+                    <div className='flex flex-col justify-between h-full transition-all duration-300 hover:-translate-y-1'>
+                        <div className='px-8 py-8 aspect-[6/5] overflow-hidden bg-[#e5e7eb] rounded-3xl'>
+                            <img src={project.image} alt={project.title} className='object-cover w-full h-full rounded-3xl' />
                         </div>
-                        <div className='bg-white py-4'>
-                            <h3 className='text-2xl font-semibold text-[#030712] mb-1'>{project.title}</h3>
-                            <p className='text-[#374151] text-xl leading-relaxed line-clamp-2 mb-2'>{project.description}</p>
-                            <div className='flex flex-row flex-wrap gap-2'>
+                        <div className='bg-white py-4 flex flex-col flex-1'>
+                            <h3 className='text-2xl font-semibold text-[#030712] mb-1 line-clamp-2'>
+                                {project.title}
+                            </h3>
+                            <p className='text-[#374151] text-xl leading-relaxed line-clamp-2 mb-2'>
+                                {project.description}
+                            </p>
+                            <div className='flex flex-row flex-wrap gap-2 mt-auto'>
                                 <Link href={project.detail} target='_blank' className='px-6 py-3 rounded-full bg-white border border-[#030712] text-[#030712] text-sm sm:text-lg'>
                                     <FaArrowRight size={16} />
                                 </Link>

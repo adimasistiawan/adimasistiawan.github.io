@@ -58,7 +58,7 @@ const Navbar = () => {
                   className="group flex items-center justify-between py-8"
                 >
                   <div className="">
-                    <span className="text-7xl sm:text-8xl lg:text-9xl font-bold text-white transition-colors group-hover:text-gray-400 md:text-8xl">
+                    <span className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white transition-colors group-hover:text-gray-400 md:text-8xl">
                       {item.label}
                     </span>
                   </div>
